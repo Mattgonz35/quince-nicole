@@ -390,7 +390,7 @@ body{
   <div class="card card-a">
     
     <div class="foto-contenedor">
-      <img src="prinsesa.png" alt="Nicole">
+      <img src="princesa.png" alt="Nicole">
     </div>
 
     <p class="lbl">Con toda la alegría del corazón</p>
@@ -399,6 +399,24 @@ body{
       cumple sus maravillosos quince años<br>
       y desea compartir esta noche mágica contigo
     </p>
+  </div>
+</div>
+
+<!-- AGRADECIMIENTO A LOS PADRES -->
+<div class="sec" data-s>
+  <div class="agradecimiento-padres" style="text-align: center; margin: 20px auto; max-width: 500px; padding: 25px 20px; background: rgba(255, 255, 255, 0.02); border-radius: 15px; border: 1px dashed rgba(212, 175, 55, 0.4);">
+    <h3 style="font-family: serif; color: #d4af37; font-size: 20px; margin-bottom: 15px; letter-spacing: 2px; text-transform: uppercase;">Con la bendición de mis padres</h3>
+    
+    <p style="font-size: 14px; line-height: 1.7; font-style: italic; opacity: 0.95; max-width: 420px; margin: 0 auto 20px auto; color: #ffffff;">
+      "Hoy doy gracias a Dios por la vida, y a mis padres por su amor incondicional, su guía y por enseñarme que con esfuerzo los sueños se hacen realidad. Gracias por hacer posible esta noche mágica."
+    </p>
+    
+    <!-- Nombres de los Padres -->
+    <div style="display: flex; justify-content: center; gap: 30px; font-family: 'Italiana', serif; font-size: 16px; color: #d4af37; font-weight: bold;">
+      <div>Danier Vaca Cespedes</div>
+      <div style="opacity: 0.5;">|</div>
+      <div>Beby Tejada Rojas</div>
+    </div>
   </div>
 </div>
 
@@ -486,10 +504,52 @@ body{
   </div>
 </div>
 
+<!-- SECCIÓN DE REGALOS -->
+<div class="sec" data-s>
+  <div class="regalos-seccion" style="text-align: center; padding: 40px 20px; background-color: rgba(255,255,255,0.05); border-radius: 15px; margin: 30px auto; max-width: 500px; border: 1px solid rgba(212,175,55,0.3);">
+    <div style="font-size: 24px; margin-bottom: 10px;">🎁</div>
+    <h3 style="font-family: serif; color: #d4af37; margin-bottom: 15px; letter-spacing: 1px;">Muestras de Cariño</h3>
+    <p style="font-size: 15px; line-height: 1.6; color: #ffffff; margin-bottom: 5px;">
+      "Tu presencia es mi mayor regalo, pero si deseas tener un detalle conmigo..."
+    </p>
+    <p style="font-size: 16px; font-weight: bold; color: #d4af37; margin-top: 10px;">
+      ✨ Lluvia de Sobres ✨
+    </p>
+    <p style="font-size: 14px; opacity: 0.8; max-width: 400px; margin: 0 auto;">
+      Podrás depositar tu sobre en el cofre que estará en la recepción del evento.
+    </p>
+  </div>
+</div>
+
 <div class="sec" data-s>
   <div class="card card-b">
     <p class="lbl">Código de Vestimenta</p>
     <p style="font-family:'Italiana',serif;font-size:clamp(22px,5vw,30px);color:var(--text);margin-bottom:4px">Formal Elegante</p>
+  </div>
+</div>
+
+<!-- MANUAL DE LA FIESTA -->
+<div class="sec" data-s>
+  <div class="manual-seccion" style="text-align: center; margin: 40px auto; max-width: 550px; padding: 0 20px;">
+    <h3 style="font-family: serif; color: #d4af37; margin-bottom: 25px; letter-spacing: 1px;">A tener en cuenta...</h3>
+    
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+      
+      <!-- Bloque 1 -->
+      <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 10px; width: 45%; min-width: 150px; border: 1px solid rgba(212,175,55,0.1);">
+        <div style="font-size: 20px; margin-bottom: 5px;">🔋</div>
+        <h4 style="color: #d4af37; margin: 5px 0; font-size: 14px;">Batería Lista</h4>
+        <p style="font-size: 12px; opacity: 0.8; margin: 0;">Ven con el celular al 100% para capturar cada momento mágico.</p>
+      </div>
+
+      <!-- Bloque 2 -->
+      <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 10px; width: 45%; min-width: 150px; border: 1px solid rgba(212,175,55,0.1);">
+        <div style="font-size: 20px; margin-bottom: 5px;">👟</div>
+        <h4 style="color: #d4af37; margin: 5px 0; font-size: 14px;">Zapatos Cómodos</h4>
+        <p style="font-size: 12px; opacity: 0.8; margin: 0;">Prepara tu segundo par de zapatos, ¡vamos a bailar toda la noche!</p>
+      </div>
+
+    </div>
   </div>
 </div>
 
@@ -550,7 +610,7 @@ body{
 /* PÉTALOS */
 (function(){
   const layer=document.getElementById('petals');
-  const pairs=[['#8FD46A','#4F9A3A'],['#F3E6A1','#c8b060'],['#B8E6B0','#6DBE45'],['#A8D98A','#3a7a28'],['#d0f0a0','#6nodeDBE45']];
+  const pairs=[['#8FD46A','#4F9A3A'],['#F3E6A1','#c8b060'],['#B8E6B0','#6DBE45'],['#A8D98A','#3a7a28'],['#d0f0a0','#6DBE45']];
   for(let i=0;i<20;i++){
     const p=document.createElement('div');
     p.className='pt';
@@ -612,7 +672,7 @@ function toggleMusic() {
   }
 }
 
-// Intentar autoreproducir al primer toque en la pantalla por si el usuario hace scroll antes de apretar el botón
+// Intentar autoreproducir al primer toque en la pantalla
 document.body.addEventListener('click', () => {
    if(audio.paused) {
       audio.play().then(() => {
